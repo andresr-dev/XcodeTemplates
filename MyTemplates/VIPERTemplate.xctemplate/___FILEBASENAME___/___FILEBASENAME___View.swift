@@ -11,7 +11,7 @@ struct ___VARIABLE_productName:identifier___View: View {
     
     var body: some View {
         Text("Hello, World!")
-            .screenAppearAnalytics(name: "___VARIABLE_productName:identifier___View")
+            .screenAppearAnalytics(type: Self.self)
     }
 }
 
